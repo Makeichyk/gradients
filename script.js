@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 const nameColors = body.querySelectorAll(".color");
 const copyButton = body.querySelector(".copy-btn");
 const createButton = body.querySelector(".create-btn");
-const tooltip = body.getElementById("myTooltip");
+const tooltip = body.querySelector("#myTooltip");
 
 let copyText = ``;
 
